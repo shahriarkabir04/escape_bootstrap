@@ -1,0 +1,177 @@
+@font-face {
+  font-family: cubano;
+  src: url('../fonts/Cubano.ttf');
+}
+@font-face {
+  font-family: BrandonBold;
+  src: url(../fonts/BrandonGrotesque-Bold.ttf);
+}
+@font-face {
+  font-family: BrandonRegular;
+  src: url(../fonts/BrandonGrotesque-Regular.ttf);
+}
+@font-face {
+  font-family: BrandonLight;
+  src: url(../fonts/BrandonGrotesque-Light.ttf);
+}
+@font-face {
+  font-family: BrandonMedium;
+  src: url(../fonts/BrandonGrotesque-Medium.ttf);
+}
+
+/*fonts end*/
+body {
+  font-family: BrandonRegular;
+  padding: 0;
+  margin: 0;
+}
+
+/*header start*/
+header {
+/*     linear-gradient(rgba( 197, 82, 82, 0.572 ), rgba( 50, 105, 107, 0.572 )), */
+    background: url('../images/tint.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.custom-navbar-nav li {
+    
+}
+.custom-navbar-nav li a {
+  font-family: BrandonMedium;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff !important;
+  display: block;
+  padding: 10px 15px;
+  transition: .4s;
+}
+.custom-navbar-nav li a:hover {
+    color: #aaaaaa !important;
+}
+.custom-header-text h1 {
+    font-family: BrandonLight;
+    font-size: 32px;
+    color: #BEBBBF;
+}
+.custom-header-text h2 {
+    font-family: BrandonBold;
+    font-size: 66px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.custom-header-text button {
+    font-family: brandonBold;
+    font-size: 23px;
+    border-style: none;
+    padding: 20px 66px;
+    border: 3px solid white;
+    background: transparent;
+    color: white;
+    transition: all .3s;
+}
+.custom-carousel-indicators {
+    bottom: -150px;
+}
+.custom-carousel-indicators li {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+/*header end*/
+/*media start*/
+.custom-media i {
+    width: 75px;
+    height: 75px;
+    float: left;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 72px;
+    background: #222222;
+    color: white;
+    margin-right: 20px;
+}
+/*media end*/
+/*client start*/
+#client .custom-lead {
+    font-size: 22px;
+}
+#client .custom-card-1, #client .custom-card-2 {
+    position: relative;
+}
+#client .custom-card-1::before {
+    content: "";
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 16px solid #fff;
+    position: absolute;
+    left: -15px;
+    top: 50px;
+}
+#client .custom-card-2::before {
+    content: "";
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 16px solid #fff;
+    position: absolute;
+    right: -15px;
+    top: 50px;
+}
+/*client end*/
+/*team start*/
+#team {
+    background-color: #111111;
+    color: #fff;
+}
+#team .custom-list-inline li {
+    
+    
+}
+#team .custom-list-inline li a {
+    width: 35px;
+    height: 35px;
+    line-height: 2.1;
+    text-align: center;
+    color: #fff;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: all .3s;
+}
+#team .custom-list-inline li a:hover {
+    color: #111111;
+    background: #fff;
+}
+/*team end*/
+/*contact start*/
+#contact {
+    background: #7690C5;
+}
+#contact .custom-contact-link {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#contact .custom-contact-link li {
+    display: block;
+    padding: 20px;
+    width: 50%;
+}
+#contact .custom-contact-link li:nth-child(even) {
+    float: left;
+}
+#contact .custom-contact-link li:nth-child(odd) {
+    float: right;
+}
+#contact .custom-contact-link li i {
+    margin-right: 8px;
+}
+/*contact end*/
+/*footer start*/
+footer {
+    background: #7690C5;
+}
+/*footer end*/
